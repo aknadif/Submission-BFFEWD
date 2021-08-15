@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    margin-top: 50px;
+}
+
+.navbar {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.kontenbio {
+    margin-top: 50px;
+}
+
+h2 {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h4 {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.card-global {
+    width: 400px;
+    height: 200px;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+
+.search {
+    margin-top: 20px;
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1)
+}
+
+.search input {
+    height: 60px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4
+}
+
+.search input:focus {
+    box-shadow: none;
+    border: 2px solid #e63946
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 16px
+}
+
+.search button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 50px;
+    width: 110px;
+    background: #e63946
+}
+
+.footer {
+    color: #f1faee;
+    text-decoration: none;
+}
+
+.footer a {
+    color: #f1faee;
+    text-decoration: none;
+}
+
+.wrap-search {
+    border-radius: 20px;
+    border: 2px solid #e63946;
+    height: 600px;
+}
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 1020px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.scrolling-wrapper .CardContent {
+    display: inline-block;
+}
+
+.scrolling-wrapper-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.scrolling-wrapper-flexbox .CardContent {
+    flex: 0 0 auto;
+}
+
+.scrolling-wrapper {
+    -webkit-overflow-scrolling: touch;
+}
+
+.CardContent{
+    width: 200px;
+    height: 300px;
+    margin-left: 10px;
+    background-color: #e5e5e5;
+}
+.CardContent h4{
+    font-size: 20px;
+}
+.CardContent p{
+    font-size: 12px;
+    text-indent: 15px;
+}
+
+@media only screen and (min-width: 600px) {
+    .CardContent{
+        margin-top: 50px;
+        
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .card-global {
+        width: 250px;
+        height: 150px;
+    }
+    .search button {
+        top: 10px;
+        right: 5px;
+        height: 40px;
+        width: 80px;
+    }
+    .search input {
+        height: 60px;
+        text-indent: 5px;
+    }
+
+    .wrap-search{
+        height: 500px;
+    }
+    .scrolling-wrapper::-webkit-scrollbar {
+        display: none;
+    }
+    .CardContent{
+        width: 100px;
+        height: 200px;
+    }
+    .scrolling-wrapper {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        width: 290px;
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+    .CardContent h4{
+        font-size: 16px;
+    }
+    .CardContent p{
+        font-size: 6px;
+        text-indent: 5px;
+    }
+    .col-5 p{
+        font-size: 6px;
+    }
+}

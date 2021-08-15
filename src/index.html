@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/style.css">
+
+    <title>Data Covid-19 | Indonesia</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #e63946; ">
+            <div class="container">
+                <a class="navbar-brand" href="#">Data Covid-19</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Beranda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#dunia">Global</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#indonesia">Indonesia</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Carousel -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://covid19.go.id/storage/app/media/slider/banner-min.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://covid19.go.id/storage/app/media/slider/kipi.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://covid19.go.id/storage/app/media/penyintas%20covid-19%20donor%20plasma-05.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+        <!-- End Carousel -->
+
+        <!-- Home Session -->
+        <section id="home" class="container bio">
+            <br>
+            <br>
+            <h2 class="text-center">Tentang Covid-19</h2>
+            <div class="row kontenbio">
+                <div class="col-sm-6">
+                    <h4>
+                        Apa itu COVID-19?
+                    </h4>
+                    <p>Pneumonia Coronavirus Disease 2019 atau COVID-19 adalah penyakit peradangan paru yang disebabkan oleh Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2). Gejala klinis yang muncul beragam, mulai dari seperti gejala flu biasa
+                        (batuk, pilek, nyeri tenggorok, nyeri otot, nyeri kepala) sampai yang berkomplikasi berat (pneumonia atau sepsis).</p>
+                    <br>
+                    <h4>
+                        Bagaimana COVID-19 Menular?
+                    </h4>
+                    <p>Cara penularan COVID-19 ialah melalui kontak dengan droplet saluran napas penderita. Droplet merupakan partikel kecil dari mulut penderita yang mengandung kuman penyakit, yang dihasilkan pada saat batuk, bersin, atau berbicara. Droplet
+                        dapat melewati sampai jarak tertentu (biasanya 1 meter).
+                        <br><br> Droplet bisa menempel di pakaian atau benda di sekitar penderita pada saat batuk atau bersin. Namun, partikel droplet cukup besar sehingga tidak akan bertahan atau mengendap di udara dalam waktu yang lama. Oleh karena
+                        itu, orang yang sedang sakit, diwajibkan untuk menggunakan masker untuk mencegah penyebaran droplet.</p>
+                </div>
+                <div class="col-sm-6">
+                    <iframe id="instagram-embed-0" class="instagram-media instagram-media-rendered" style="background: white; max-width: 658px; width: calc(100% - 2px); border-radius: 3px; border: 1px solid #dbdbdb; box-shadow: none; display: block; margin: 0px 0px 12px; min-width: 326px; padding: 0px;"
+                        src="https://www.instagram.com/p/CLNRClOnx55/embed?utm_source=ig_embedembed/captioned/" scrolling="no" data-instgrm-payload-id="instagram-media-payload-0" height="750" frameborder="0"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start"></span><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start"></span><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start"></span></iframe>
+                </div>
+            </div>
+        </section>
+        <!-- End Home Session -->
+
+        <!-- Dunia Session -->
+        <section id="dunia" class="container dunia">
+            <br><br>
+            <h2 class="text-center">Data Covid-19 Global</h2>
+            <div class="d-flex">
+                <div class="card-body">
+                    <div id="data-global" class="data-global"></div>
+                    <div class="wrap-search mt-5">
+                        <h2 class="text-center mt-5">Data Negara Covid-19</h2>
+                        <!-- <search-bar></search-bar> -->
+                        <div class="container-card">
+                            <div id="CardContent">
+                                <div class="scrolling-wrapper text-center">
+                                    <card-list></card-list>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Dunia Session -->
+
+        <!-- Indonesia Session -->
+        <section id="indonesia" class="container indonesia">
+            <br><br>
+            <h2 class="text-center">Data Covid-19 Indonesia</h2>
+            <div class="d-flex">
+                <div class="card-body">
+                    <div id="data-indonesia" class="data-indonesia"></div>
+                    <div class="wrap-search mt-5">
+                    <h2 class="text-center mt-5">Data Provinsi Indonesia Covid-19</h2>
+                    <div class="container-card">
+                        <div id="CardContent">
+                            <div class="scrolling-wrapper text-center">
+                                <card-list-indo></card-list-indo>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Indonesia Session -->
+
+        <!-- Footer -->
+        <footer style="background-color: #e63946" class="footer pb-3">
+            <p class="text-center">Created with <i class="bi bi-heart-fill"></i> by <a href="https://www.instagram.com/aknadhif/" class="fw-bold">aknadhif</a></p>
+        </footer>
+        <!-- End Footer -->
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
